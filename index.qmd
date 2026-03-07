@@ -14,6 +14,8 @@ Dönem boyunca yapacağım tüm ödevleri, veri analizi projelerimi ve teknik ç
 
 ### Sayfa İçeriği
 
-[-]{.underline} Hakkımda: Akademik ve profesyonel geçmişim ile özgeçmişim.
-[-]{.underline} Portfolyo: Ders kapsamında hazırladığım ödevler ve veri analitiği çalışmaları.
-[-]{.underline} Projeler: Dönem sonu bitirme projemin detaylı analizi.
+-   Hakkımda: Akademik ve profesyonel geçmişim ile özgeçmişim
+
+-   Portfolyo: Ders kapsamında hazırladığım ödevlerim
+
+-   Projeler: Dönem sonu bitirme projemin detaylı analizi
