@@ -2,6 +2,7 @@
 install.packages(c("knitr", "rmarkdown"))
 title: "Hakkımda"
 sidebar: false 
+ pdf: default
 ---
 
 ![](images/fotoğraf.JPG){width="250"}
