@@ -1,8 +1,20 @@
 ---
 title: "Analitik sayfama hoş geldiniz"
 sidebar: false 
+format:
+  docx: default
+  html: default
 ---
 
-MUY660-İş Analitiği dersi sayfama hoş geldiniz.
+# Merhaba, Ben Selcan İşlek
 
-Bu analitik çalışmalarımızı paylaşıyorum.
+Bu web sitesi, \*\*Hacettepe Üniversitesi Mühendislik Yönetimi\*\* bünyesindeki \*\*MUY665 İş Analitiği\*\* dersi kapsamında hazırladığım çalışmaları sergilemek amacıyla oluşturulmuştur.
+
+Dönem boyunca yapacağım tüm ödevleri, veri analizi projelerimi ve teknik çıkarımlarımı bu platform üzerinden takip edebilirsiniz.
+
+### Sayfa İçeriği:
+[\*]{.underline} \*\*Hakkımda:\*\* Akademik ve profesyonel geçmişim ile özgeçmişim.
+[\*]{.underline} \*\*Portfolyo:\*\* Ders kapsamında hazırladığım ödevler ve veri analitiği çalışmaları.
+[\*]{.underline} \*\*Projeler:\*\* Dönem sonu bitirme projemin detaylı analizi.
+
+---
