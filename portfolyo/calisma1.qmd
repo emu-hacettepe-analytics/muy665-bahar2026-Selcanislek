@@ -1,16 +1,44 @@
 ---
-title: "Çalışma 1"
+title: "MÜY665-Ödev 1"
+author: "Selcan İşlek"
+date: "2026-03-08"
+format: html
 ---
 
-\
-(Aşağıdakiler örnek olarak verilmiştir.)
+# Değşkenlerin tanımlanması
 
-Bu çalışmada 3 görevimiz var. Bu görevler..... Bunlara sırayla aşağıda cevap arıyoruz.
+my_first \<- "Selcan"
 
-## (a)
+my_birth_year \<- 1997
 
-```{r}
-1 + 1
-```
+# k değerini hesaplıyoruz
 
-## (b)
+k \<- (nchar(my_first) + my_birth_year) %% 15 + 8
+
+print(paste("Hesaplanan k degeri:", k)) #\| message: false #\| warning: false
+
+# Paketleri yüklüyoruz
+
+if (!require("dslabs")) install.packages("dslabs") if (!require("dplyr")) install.packages("dplyr")
+
+library(dslabs) library(dplyr)
+
+# Veriyi yüklüyoruz
+
+data("polls_us_election_2016")
+
+# k çift mi tek mi kontrol edip head veya tail seçiyoruz
+
+if (k %% 2 == 0) {
+
+# k çift ise: ilk k satırı al
+
+secilen_veri \<- head(polls_us_election_2016, k) mesaj\<- paste("k =", k, "(cift) oldugu icin ilk", k, "satır seçti") } else { \# k tek ise: son k satırı al secilen_veri \<- tail(polls_us_election_2016, k) mesaj \<- paste("k =", k, "(tek) oldugu icin son", k, "satır seçti") }
+
+# Seçilen veri içindeki eksik (NA) değerleri temizliyoruz
+
+temiz_veri \<- na.omit(secilen_veri)
+
+print(mesaj)
+
+knitr::kable(temiz_veri)
