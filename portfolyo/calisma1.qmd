@@ -56,6 +56,6 @@ data("polls_us_election_2016")
 
 temiz_veri <- na.omit(secilen_veri)
 
-#| label: tablo-cikti 
-#| knitr::kable(temiz_veri)
+#| lab
+knitr::kable(temiz_veri)
 ```
