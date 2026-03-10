@@ -6,7 +6,7 @@ format:
   html: default
 ---
 
-# Selcan İşlek
+# Selcan İşle
 
 Bu web sitesi, Hacettepe Üniversitesi Mühendislik Yönetimi bünyesindeki MUY665 İş Analitiği dersi kapsamında hazırladığım çalışmaları sergilemek amacıyla oluşturulmuştur.
 
