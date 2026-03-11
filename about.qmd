@@ -1,39 +1,32 @@
----
-install.packages(c("knitr", "rmarkdown"))
-title: "Hakkımda"
-sidebar: false 
- pdf: default
----
 
 ![](images/fotoğraf.JPG){width="250"}
 
-# Eğitim
+## Eğitim
 
--   B.S., Makine Mühendisliği, Orta Doğu Teknik Üniversitesi, Turkiye, 2016 - 2023.
--   M.S., Industrial Engineering, Hacettepe University, Turkey, 2025 - devam ediyor
+- B.S., Makine Mühendisliği, Orta Doğu Teknik Üniversitesi, Turkiye, 2016 - 2023  
+- M.S., Industrial Engineering, Hacettepe University, Turkey, 2025 - devam ediyor  
 
-# İş Tecrübesi
+## İş Tecrübesi
 
--   Proted Protez-Ortez, AR-GE Mühendisi, 2025-Halen
+- Proted Protez-Ortez, AR-GE Mühendisi, 2025-Halen  
+- Ottonom Mühendislik, Mekanik Tasarım Mühendisi, 2024  
 
--   Ottonom Mühendislik, Mekanik Tasarım Mühendisi, 2024
+## Staj Tecrübesi
 
-# Staj Tecrübesi
+- Simofis Mühendislik, Yapısal Analiz Stajyeri, 2021  
 
--   Simofis Mühendislik, Yapısal Analiz Stajyeri, 2021
+## Projects
 
-# Projects
+- TUBİTAK 2209 – Production and Performance Evaluation of Natural Zeolite Plate Composite Trombe Wall System for Near Zero Energy Buildings  
+- Borusan – Lisans Bitirme Projesi – HDPE Kaplı Boru Yüzeyi Pürüzlendirme Makinesi Tasarım ve Üretimi  
 
--   TUBİTAK 2209-Production and Performance Evaluation of Natural Zeolite Plate Composite Trombe Wall System for Near Zero Energy Buildings
--   Borusan- Lisans Bitirme Projesi- HDPE Kaplı Boru Yüzeyi Pürüzlendirme Makinesi Tasarım ve Üretimi
+## Competencies
 
-# Competencies
+- Solidworks  
+- Simcenter 3D  
+- MATLAB  
 
--   Solidworks
--   Simcenter 3D
--   MATLAB
+## Hobbies
 
-# Hobbies
-
--   Hentbol
--   Koşu
+- Hentbol  
+- Koşu  

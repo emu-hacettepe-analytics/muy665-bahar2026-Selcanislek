@@ -2,11 +2,11 @@
 title: "İş Analitiği-MUY665 sayfama hoş geldiniz"
 sidebar: false 
 format:
-  docx: default
   html: default
+  docx: default
 ---
 
-# Selcan İşle
+# Selcan İşlek
 
 Bu web sitesi, Hacettepe Üniversitesi Mühendislik Yönetimi bünyesindeki MUY665 İş Analitiği dersi kapsamında hazırladığım çalışmaları sergilemek amacıyla oluşturulmuştur.
 
@@ -14,8 +14,8 @@ Dönem boyunca yapacağım tüm ödevleri, veri analizi projelerimi ve teknik ç
 
 ### Sayfa İçeriği
 
--   Hakkımda: Akademik ve profesyonel geçmişim ile özgeçmişim
-
--   Portfolyo: Ders kapsamında hazırladığım ödevlerim
-
+-   Hakkımda: Akademik ve profesyonel geçmişim ile özgeçmişim\
+-   Portfolyo: Ders kapsamında hazırladığım ödevlerim\
 -   Projeler: Dönem sonu bitirme projemin detaylı analizi
+
+------------------------------------------------------------------------

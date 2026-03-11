@@ -2,60 +2,60 @@
 title: "MÜY665-Ödev 1"
 author: "Selcan İşlek"
 date: "2026-03-08"
-format: html
+format:
+  html: default
+  docx: default
 ---
 
-```{r}
-# label: k-hesaplama
+## k Değerinin Hesaplanması
 
-# echo: true
+```{r}
+#| label: k-hesaplama
+#| echo: true
 
 # Değişkenlerin tanımlanması
-
 my_first <- "Selcan"
 my_birth_year <- 1997
 
 # k değerinin hesaplanması
-
 k <- (nchar(my_first) + my_birth_year) %% 15 + 8
 
 print(paste("Hesaplanan k degeri:", k))
 ```
 
-```{r}
+## Veri Hazırlık
 
-##| label: veri-hazirlik
-##| #| message: false 
-##| #| warning: false
+```{r}
+#| label: veri-hazirlik
+#| message: false
+#| warning: false
 
 # Gerekli paketlerin kontrolü ve yüklenmesi
-
 if (!require("dslabs")) install.packages("dslabs")
 if (!require("dplyr")) install.packages("dplyr")
 
-library(dslabs) 
+library(dslabs)
 library(dplyr)
 
 # Veriyi içe aktarma
-
 data("polls_us_election_2016")
 ```
 
+## Veri İşleme
+
 ```{r}
+#| label: veri-isleme
 
-#| label: veri-isleme 
-#| # k çift ise head, tek ise tail fonksiyonu seçilir 
-#| if (k %% 2 == 0) { 
-#| # k çift olduğu için head kullanıyoruz 
-#| secilen_veri <- head(polls_us_election_2016, k) 
-#| } else { 
-#| # k tek olsaydı tail kullanacaktık 
-#| secilen_veri <- tail(polls_us_election_2016, k) }
+# k çift ise head, tek ise tail fonksiyonu seçilir
+if (k %% 2 == 0) {
+  secilen_veri <- head(polls_us_election_2016, k)
+} else {
+  secilen_veri <- tail(polls_us_election_2016, k)
+}
 
-# Eksik verileri (NA) temizleme
-
+# Eksik verileri temizleme
 temiz_veri <- na.omit(secilen_veri)
 
-#| lab
+# Tablo olarak gösterme
 knitr::kable(temiz_veri)
 ```
