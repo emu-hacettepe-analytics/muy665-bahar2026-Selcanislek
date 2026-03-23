@@ -7,7 +7,43 @@ format:
   docx: default
 ---
 
-## k Değerinin Hesaplanması
+#### Video Özeti ve Sorular
+
+##### a) Video Özeti
+
+Veri Bilimi ve Endüstri Mühendisliği seminerleri içerikli bu videoda veri bilimi ve optimizasyon uzmanı Baykal Hafızoğlu'nun kariyer yolculuğu ve endüstrideki tecrübeleri ele alınmaktadır. Hafızoğlu, analitik dünyasını Tanımlayıcı (Descriptive), Teşhis Edici (Diagnostic), Tahmin Edici (Predictive) ve Kural Koyucu (Prescriptive) olmak üzere dört temel sütuna ayırmaktadır. Başarılı bir analitik projesinin temelinde, problemin herkesin anlayabileceği netlikte ve hesaplanabilir metriklerle (KPI) tanımlanmasının olduğundan bahsetmektedir. Ayrıca, geliştirilen modellerin yalnızca bilgisayarda kalmayıp son kullanıcıya başarılı bir arayüzle (UI) ulaştırılmasının (deployment) ve karmaşıklıktan ziyade "açıklanabilir" (explainable) sonuçlar sunmanın iş hayatındaki en kritik unsurlar olduğu vurgulamaktadır.
+
+##### b) Videodan Hazırlanan Sorular ve Cevapları
+
+###### SORU 1) 
+
+Baykal Hafızoğlu'na göre analitik dünyası hangi dört ana çerçeveye ayrılmaktadır? Kısaca açıklayınız.
+
+###### Cevap:
+
+Analitik dünyası şu dört temel kategoriye ayrılır: 1-Tanımlayıcı (Descriptive) Analitik: Eldeki veriyi kullanarak mevcut durumu tanımlayan ve "Ne oldu?" sorusuna cevap veren sistemlerdir.
+
+2-Teşhis Edici (Diagnostic) Analitik: Sorunun neden kaynaklandığını bulmaya çalışan, istatistiksel yöntemlerle durumu teşhis eden türdür.
+
+3-Tahmin Edici (Predictive) Analitik: Mevcut verilere dayanarak gelecekte ne olacağını öngörmeye (tahmin etmeye) çalışan sistemlerdir.
+
+4-Kural Koyucu (Prescriptive) Analitik: "Ne yapılması gerektiğini" belirleyen, optimizasyon modelleriyle aksiyon tavsiyeleri veren yöntemlerdir.
+
+###### SORU 2) 
+
+Çoktan Seçmeli Soru Soru: Herhangi bir analitik veya yazılım projesine başlarken atılması gereken en önemli ilk adım aşağıdakilerden hangisidir?
+
+A)  Doğrudan Python veya R ile modelin kodlanmasına başlamak.
+B)  Problemi net bir şekilde, hesaplanabilir/sayısal kilit performans göstergeleri (KPI) kullanarak tanımlamak.
+C)  En pahalı optimizasyon çözücüsünü (solver) satın almak.
+D)  Uygulamanın tasarımı için ilk olarak arayüz (UI) renklerini belirlemek.
+E)  Projenin "yapay zeka" içerdiğinden emin olmak.
+
+###### Cevap:
+
+B şıkkı.
+
+#### k Değerinin Hesaplanması
 
 ```{r}
 #| label: k-hesaplama
@@ -23,7 +59,7 @@ k <- (nchar(my_first) + my_birth_year) %% 15 + 8
 print(paste("Hesaplanan k degeri:", k))
 ```
 
-## Veri Hazırlık
+#### Veri Hazırlık
 
 ```{r}
 #| label: veri-hazirlik
@@ -41,7 +77,7 @@ library(dplyr)
 data("polls_us_election_2016")
 ```
 
-## Veri İşleme
+#### Veri İşleme
 
 ```{r}
 #| label: veri-isleme
