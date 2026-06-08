@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.9.37" />
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<title>İş Analitiği-MUY665 sayfama hoş geldiniz – [xxxx]’in Analitik Labı</title>
+<meta name="author" content="Selcan İşlek" />
+<meta name="dcterms.date" content="2026-03-08" />
+
+<title>MÜY665-Ödev 1 – [xxxx]'in Analitik Labı</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,30 +27,44 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-11563d2f55764b9d6a488f24f91d801a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-510d05b16ce075d26a3ac718e0ab7c7d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-11563d2f55764b9d6a488f24f91d801a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,10 +94,124 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css" />
 </head>
 
-<body class="docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="/index.html">
+    <span class="navbar-title">[xxxx]&#39;in Analitik Labı</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="/index.html"> 
+<span class="menu-text">Anasayfa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/about.html"> 
+<span class="menu-text">Hakkımda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/posts.html"> 
+<span class="menu-text">Gönderilerim</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-muy665-ders-çıktıları" role="link" data-bs-toggle="dropdown" aria-expanded="false" >
+ <span class="menu-text">MUY665 Ders Çıktıları</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-muy665-ders-çıktıları">    
+        <li>
+    <a class="dropdown-item" href="/portfolyo.html">
+ <span class="dropdown-text">Ödevler</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/project.qmd">
+ <span class="dropdown-text">Proje</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://twitter.com"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://twitter.com"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
+    <a href="https://linkedin.com"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn"
+      data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" role="link"
+        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation"
+        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/portfolyo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Portfolyo</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/portfolyo/calisma1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">MÜY665-Ödev 1</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="/portfolyo/calisma2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Çalışma 2</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+    <div id="quarto-toc-target"></div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+<script id = "quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -243,92 +375,28 @@ ul.task-list li input[type="checkbox"] {
     }
   </script>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">[xxxx]’in Analitik Labı</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Anasayfa</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">Hakkımda</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">Gönderilerim</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-muy665-ders-çıktıları" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">MUY665 Ders Çıktıları</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-muy665-ders-çıktıları">    
-        <li>
-    <a class="dropdown-item" href="./portfolyo.html">
- <span class="dropdown-text">Ödevler</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./project.qmd">
- <span class="dropdown-text">Proje</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools tools-wide">
-    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://twitter.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-twitter"></i></a>
-    <a href="https://linkedin.com" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#selcan-işlek" id="toc-selcan-işlek" class="nav-link active" data-scroll-target="#selcan-işlek">Selcan İşlek</a>
-  <ul class="collapse">
-  <li><a href="#sayfa-içeriği" id="toc-sayfa-içeriği" class="nav-link" data-scroll-target="#sayfa-içeriği">Sayfa İçeriği</a></li>
-  </ul></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">İş Analitiği-MUY665 sayfama hoş geldiniz</h1>
+<h1 class="title">MÜY665-Ödev 1</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Selcan İşlek </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 8, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -338,27 +406,146 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="selcan-işlek" class="level1">
-<h1>Selcan İşlek</h1>
-<p>Bu web sitesi, Hacettepe Üniversitesi Mühendislik Yönetimi bünyesindeki MUY665 İş Analitiği dersi kapsamında hazırladığım çalışmaları sergilemek amacıyla oluşturulmuştur.</p>
-<p>Dönem boyunca yapacağım tüm ödevleri, veri analizi projelerimi ve teknik çıkarımlarımı bu platform üzerinden takip edebilirsiniz.</p>
-<section id="sayfa-içeriği" class="level3">
-<h3 class="anchored" data-anchor-id="sayfa-içeriği">Sayfa İçeriği</h3>
-<ul>
-<li>Hakkımda: Akademik ve profesyonel geçmişim ile özgeçmişim<br>
-</li>
-<li>Portfolyo: Ders kapsamında hazırladığım ödevlerim<br>
-</li>
-<li>Projeler: Dönem sonu bitirme projemin detaylı analizi</li>
-</ul>
-<hr>
-
-
+<section id="video-özeti-ve-sorular" class="level4">
+<h4>Video Özeti ve Sorular</h4>
+<section id="a-video-özeti" class="level5">
+<h5>a) Video Özeti</h5>
+<p>Veri Bilimi ve Endüstri Mühendisliği seminerleri içerikli bu videoda veri bilimi ve optimizasyon uzmanı Baykal Hafızoğlu’nun kariyer yolculuğu ve endüstrideki tecrübeleri ele alınmaktadır. Hafızoğlu, analitik dünyasını Tanımlayıcı (Descriptive), Teşhis Edici (Diagnostic), Tahmin Edici (Predictive) ve Kural Koyucu (Prescriptive) olmak üzere dört temel sütuna ayırmaktadır. Başarılı bir analitik projesinin temelinde, problemin herkesin anlayabileceği netlikte ve hesaplanabilir metriklerle (KPI) tanımlanmasının olduğundan bahsetmektedir. Ayrıca, geliştirilen modellerin yalnızca bilgisayarda kalmayıp son kullanıcıya başarılı bir arayüzle (UI) ulaştırılmasının (deployment) ve karmaşıklıktan ziyade “açıklanabilir” (explainable) sonuçlar sunmanın iş hayatındaki en kritik unsurlar olduğu vurgulamaktadır.</p>
+</section>
+<section id="b-videodan-hazırlanan-sorular-ve-cevapları" class="level5">
+<h5>b) Videodan Hazırlanan Sorular ve Cevapları</h5>
+<section id="soru-1" class="level6">
+<h6>SORU 1)</h6>
+<p>Baykal Hafızoğlu’na göre analitik dünyası hangi dört ana çerçeveye ayrılmaktadır? Kısaca açıklayınız.</p>
+</section>
+<section id="cevap" class="level6">
+<h6>Cevap:</h6>
+<p>Analitik dünyası şu dört temel kategoriye ayrılır: 1-Tanımlayıcı (Descriptive) Analitik: Eldeki veriyi kullanarak mevcut durumu tanımlayan ve “Ne oldu?” sorusuna cevap veren sistemlerdir.</p>
+<p>2-Teşhis Edici (Diagnostic) Analitik: Sorunun neden kaynaklandığını bulmaya çalışan, istatistiksel yöntemlerle durumu teşhis eden türdür.</p>
+<p>3-Tahmin Edici (Predictive) Analitik: Mevcut verilere dayanarak gelecekte ne olacağını öngörmeye (tahmin etmeye) çalışan sistemlerdir.</p>
+<p>4-Kural Koyucu (Prescriptive) Analitik: “Ne yapılması gerektiğini” belirleyen, optimizasyon modelleriyle aksiyon tavsiyeleri veren yöntemlerdir.</p>
+</section>
+<section id="soru-2" class="level6">
+<h6>SORU 2)</h6>
+<p>Çoktan Seçmeli Soru Soru: Herhangi bir analitik veya yazılım projesine başlarken atılması gereken en önemli ilk adım aşağıdakilerden hangisidir?</p>
+<ol type="A">
+<li>Doğrudan Python veya R ile modelin kodlanmasına başlamak.</li>
+<li>Problemi net bir şekilde, hesaplanabilir/sayısal kilit performans göstergeleri (KPI) kullanarak tanımlamak.</li>
+<li>En pahalı optimizasyon çözücüsünü (solver) satın almak.</li>
+<li>Uygulamanın tasarımı için ilk olarak arayüz (UI) renklerini belirlemek.</li>
+<li>Projenin “yapay zeka” içerdiğinden emin olmak.</li>
+</ol>
+</section>
+<section id="cevap-1" class="level6">
+<h6>Cevap:</h6>
+<p>B şıkkı.</p>
 </section>
 </section>
+</section>
+<section id="k-değerinin-hesaplanması" class="level4">
+<h4>k Değerinin Hesaplanması</h4>
+<div class="cell">
+<div class="sourceCode" id="cb1"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Değişkenlerin tanımlanması</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>my_first <span class="ot">&lt;-</span> <span class="st">&quot;Selcan&quot;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>my_birth_year <span class="ot">&lt;-</span> <span class="dv">1997</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># k değerinin hesaplanması</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>k <span class="ot">&lt;-</span> (<span class="fu">nchar</span>(my_first) <span class="sc">+</span> my_birth_year) <span class="sc">%%</span> <span class="dv">15</span> <span class="sc">+</span> <span class="dv">8</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(<span class="fu">paste</span>(<span class="st">&quot;Hesaplanan k degeri:&quot;</span>, k))</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] &quot;Hesaplanan k degeri: 16&quot;</code></pre>
+</div>
+</div>
+</section>
+<section id="veri-hazırlık" class="level4">
+<h4>Veri Hazırlık</h4>
+<div class="cell">
+<div class="sourceCode" id="cb3"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Gerekli paketlerin kontrolü</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>gerekli_paketler <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;dslabs&quot;</span>, <span class="st">&quot;dplyr&quot;</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>eksik_paketler <span class="ot">&lt;-</span> gerekli_paketler[<span class="sc">!</span><span class="fu">sapply</span>(gerekli_paketler, requireNamespace, <span class="at">quietly =</span> <span class="cn">TRUE</span>)]</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (<span class="fu">length</span>(eksik_paketler) <span class="sc">&gt;</span> <span class="dv">0</span>) {</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stop</span>(<span class="st">&quot;Lütfen önce şu paketleri kurun: &quot;</span>, <span class="fu">paste</span>(eksik_paketler, <span class="at">collapse =</span> <span class="st">&quot;, &quot;</span>))</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dslabs)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Veriyi içe aktarma</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">&quot;polls_us_election_2016&quot;</span>)</span></code></pre></div>
+</div>
+</section>
+<section id="veri-işleme" class="level4">
+<h4>Veri İşleme</h4>
+<div class="cell">
+<div class="sourceCode" id="cb4"><pre class="sourceCode r cell-code"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># k çift ise head, tek ise tail fonksiyonu seçilir</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (k <span class="sc">%%</span> <span class="dv">2</span> <span class="sc">==</span> <span class="dv">0</span>) {</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  secilen_veri <span class="ot">&lt;-</span> <span class="fu">head</span>(polls_us_election_2016, k)</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  secilen_veri <span class="ot">&lt;-</span> <span class="fu">tail</span>(polls_us_election_2016, k)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Eksik verileri temizleme</span></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>temiz_veri <span class="ot">&lt;-</span> <span class="fu">na.omit</span>(secilen_veri)</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Tablo olarak gösterme</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(temiz_veri)</span></code></pre></div>
+<div class="cell-output-display">
+<table class="caption-top">
+<colgroup>
+<col style="width: 3%" />
+<col style="width: 5%" />
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 3%" />
+<col style="width: 5%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 7%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 8%" />
+<col style="width: 7%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">state</th>
+<th style="text-align: left;">startdate</th>
+<th style="text-align: left;">enddate</th>
+<th style="text-align: left;">pollster</th>
+<th style="text-align: left;">grade</th>
+<th style="text-align: right;">samplesize</th>
+<th style="text-align: left;">population</th>
+<th style="text-align: right;">rawpoll_clinton</th>
+<th style="text-align: right;">rawpoll_trump</th>
+<th style="text-align: right;">rawpoll_johnson</th>
+<th style="text-align: right;">rawpoll_mcmullin</th>
+<th style="text-align: right;">adjpoll_clinton</th>
+<th style="text-align: right;">adjpoll_trump</th>
+<th style="text-align: right;">adjpoll_johnson</th>
+<th style="text-align: right;">adjpoll_mcmullin</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+</div>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyLXRpdGxl">Çalışmalar</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXItdGl0bGU=">[xxxx]’in Analitik Labı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uZXh0">Çalışma 2</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1wcmV2">Portfolyo</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9wb3J0Zm9seW8uaHRtbFBvcnRmb2x5bw==">Portfolyo</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9wb3J0Zm9seW8vY2FsaXNtYTEuaHRtbE3DnFk2NjUtw5ZkZXYtMQ==">MÜY665-Ödev 1</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1zaWRlYmFyOi9wb3J0Zm9seW8vY2FsaXNtYTIuaHRtbMOHYWzEscWfbWEtMg==">Çalışma 2</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6QW5hc2F5ZmE=">Anasayfa</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2luZGV4Lmh0bWw=">/index.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6SGFra8SxbWRh">Hakkımda</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L2Fib3V0Lmh0bWw=">/about.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6R8O2bmRlcmlsZXJpbQ==">Gönderilerim</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Bvc3RzLmh0bWw=">/posts.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6TVVZNjY1IERlcnMgw4fEsWt0xLFsYXLEsQ==">MUY665 Ders Çıktıları</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6w5ZkZXZsZXI=">Ödevler</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3BvcnRmb2x5by5odG1s">/portfolyo.html</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6UHJvamU=">Proje</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWludC1uYXZiYXI6L3Byb2plY3QucW1k">/project.qmd</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW5hdmJhci10b29sczpodHRwczovL3R3aXR0ZXIuY29t">https://twitter.com</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW5hdmJhci10b29sczpodHRwczovL2xpbmtlZGluLmNvbQ==">https://linkedin.com</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLWJyZWFkY3J1bWJzLU3DnFk2NjUtw5ZkZXYtMQ==">MÜY665-Ödev 1</span></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="Zm9vdGVyLWNlbnRlcg==">
+<p>Hacettepe IE - MUY665 - Bahar 2026</p>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGF0aXRsZQ==">MÜY665-Ödev 1 – [xxxx]’in Analitik Labı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkdGl0bGU=">MÜY665-Ödev 1 – [xxxx]’in Analitik Labı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZHRpdGxl">MÜY665-Ödev 1 – [xxxx]’in Analitik Labı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW1ldGFzaXRlbmFtZQ==">[xxxx]’in Analitik Labı</span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLXR3aXR0ZXJjYXJkZGVzYw=="></span> <span class="hidden quarto-markdown-envelope-contents" data-render-id="cXVhcnRvLW9nY2FyZGRkZXNj"></span></p>
+</div>
+</section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -771,6 +958,18 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a  href="/portfolyo.html" class="pagination-link" aria-label="Portfolyo">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Portfolyo</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a  href="/portfolyo/calisma2.html" class="pagination-link" aria-label="Çalışma 2">
+        <span class="nav-page-text">Çalışma 2</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -778,15 +977,14 @@ ul.task-list li input[type="checkbox"] {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>Hacettepe IE - MUY665 - Bahar 2026</p>
-</div>
+      <div class='footer-contents'>Hacettepe IE - MUY665 - Bahar 2026</div>  
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>

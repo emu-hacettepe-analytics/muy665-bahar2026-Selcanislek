@@ -66,9 +66,12 @@ print(paste("Hesaplanan k degeri:", k))
 #| message: false
 #| warning: false
 
-# Gerekli paketlerin kontrolü ve yüklenmesi
-if (!require("dslabs")) install.packages("dslabs")
-if (!require("dplyr")) install.packages("dplyr")
+# Gerekli paketlerin kontrolü
+gerekli_paketler <- c("dslabs", "dplyr")
+eksik_paketler <- gerekli_paketler[!sapply(gerekli_paketler, requireNamespace, quietly = TRUE)]
+if (length(eksik_paketler) > 0) {
+  stop("Lütfen önce şu paketleri kurun: ", paste(eksik_paketler, collapse = ", "))
+}
 
 library(dslabs)
 library(dplyr)
