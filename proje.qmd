@@ -407,3 +407,4 @@ Bu proje kapsamında yapay zeka desteği; proje planının düzenlenmesi, R kod 
 -   MUY665 2023-2024 Bahar dönemi örnek proje sayfaları.
 -   Quarto dokümantasyonu: <https://quarto.org/>
 -   R paketleri: `readr`, `dplyr`, `tidyr`, `stringr`, `ggplot2`.
+
